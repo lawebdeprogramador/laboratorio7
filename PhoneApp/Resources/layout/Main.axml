@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Proporciona un número de teléfono:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PhoneNumerText"
+        android:text="1-855-XAMARIN" />
+    <Button
+        android:text="Convertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TranslateButton" />
+    <Button
+        android:text="Llamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CallButton" />
+    <Button
+        android:text="@string/CallHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CallHistoryButton"
+        android:enabled="false" />
+    <Button
+        android:text="Validar Actividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Validar" />
+    <EditText
+        android:layout_width="381.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextResult"
+        android:textColor="#FFD700"
+        android:textAlignment="center"
+        android:paddingLeft="100px"
+        android:paddingTop="100px"
+        android:text="----------------------&gt;" />
+</LinearLayout>
